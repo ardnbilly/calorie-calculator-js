@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, select {
+  display: block;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.gender {
+  display: flex;
+}
+
+#male, #female {
+  margin-right: 4px;
+}
+
+.male {
+  margin-right: 8px;
+}
+
+.number, .activity {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+#check {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 12px 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+#check:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    background-color: white;
+  }
+}
