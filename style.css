@@ -17,6 +17,10 @@ input, select {
   display: block;
 }
 
+input:focus {
+  outline: none;
+}
+
 .container {
   background-color: #f2f2f2;
   padding: 20px;
