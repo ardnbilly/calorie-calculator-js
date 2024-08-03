@@ -15,4 +15,4 @@ A simple web-based calorie calculator implemented using HTML, CSS, and JavaScrip
 
 ## Demo
 
-https://calorie-calculator-js.vercel.app/
+https://calculator-calorie-omega.vercel.app/
